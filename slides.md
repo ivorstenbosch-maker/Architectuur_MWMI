@@ -160,34 +160,6 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 9 -->
 
-# Waar worden gegevens vastgelegd?
-
-<div class="content-grid" style="grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:22px;">
-  <div class="content-card" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>OpenKlant</h3><p>Inwoners, ketenpartners, adressen en contactmomenten.</p>
-  </div>
-  <div class="content-card accent" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>OpenPlan</h3><p>Plannen, doelen, subdoelen en evaluaties.</p>
-  </div>
-  <div class="content-card" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>OpenProduct</h3><p>Aanbod, instrumenten en voorzieningen.</p>
-  </div>
-  <div class="content-card" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>OpenZaak</h3><p>Zaken en bijbehorende context.</p>
-  </div>
-  <div class="content-card" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>Domeinregistraties</h3><p>Domeinspecifieke gegevens, bijvoorbeeld Werk of Inburgering.</p>
-  </div>
-  <div class="content-card" v-click style="min-height:175px;display:flex;flex-direction:column;justify-content:center;">
-    <h3>VTB</h3><p>Verzoeken, taken en berichten.</p>
-  </div>
-</div>
-<p v-click style="color:var(--u-red);font-weight:700;margin-top:14px;">Leg gegevens vast bij de component die daarvoor verantwoordelijk is.</p>
-
----
-
-<!-- SLIDE 10 -->
-
 # Van registraties naar inzicht
 
 <p class="lead">Gegevens uit de verschillende registraties worden samengebracht voor monitoring en sturing.</p>
@@ -204,7 +176,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 10 -->
 
 # Wat is nodig voor de PoC?
 
@@ -229,7 +201,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 11 -->
 
 # Vier scenario's valideren
 
@@ -243,14 +215,39 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 ---
 
+<!-- SLIDE 12 -->
+
+# Een inwonerplan in de praktijk
+
+<p class="lead">Eén fictieve inwoner laat zien hoe Werk en Inburgering samenkomen in de dagelijkse uitvoering.</p>
+
+<div class="flow-row">
+  <div class="content-card accent" v-click><h3>1. Situatie bekijken</h3><p>De coach bekijkt in MijnPlan het profiel en de relevante informatie uit beide domeinen.</p></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>2. Plan en doelen</h3><p>Werk en Inburgering krijgen samenhang in één inwonerplan met doelen en subdoelen.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>3. Aanbod inzetten</h3><p>Bij een doel passend aanbod wordt geselecteerd en via GZAC ingezet.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>4. Evalueren</h3><p>De coach bespreekt de voortgang en stelt waar nodig profiel of plan bij.</p></div></div>
+</div>
+
+<div class="poc-section" v-click><h3>Wat toetsen we?</h3><p style="font-size:13px;margin:0;">Kan de coach domeininformatie bekijken en aanvullen, een subdoel afronden en samen met de inwoner de volgende stap bepalen?</p></div>
+
+---
+
 <!-- SLIDE 13 -->
 
-# Het totaalbeeld
+# Besluiten voor een werkbare PoC
 
-<p class="lead">Eén dienstverleningservaring, gedragen door samenwerkende componenten en duidelijke gegevensverantwoordelijkheden.</p>
-<div style="height:390px;border:2px dashed var(--u-border);border-radius:12px;background:#FAFAFA;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--u-mid);font-weight:700;margin-top:15px;">
-  VOEG HIER HET TOTALE ARCHITECTUURPLAATJE TOE
+<p class="lead">Maak de belangrijkste afspraken expliciet voordat de scenario's worden ingericht en getest.</p>
+
+<div class="content-grid two">
+  <div class="content-card accent" v-click><h3>Rollen en toegang</h3><p>Wie bekijkt of wijzigt profiel, plan, domeingegevens en aanbod? Hoe verschillen coach, teamleider en beheer?</p></div>
+  <div class="content-card" v-click><h3>Gegevens en uitwisseling</h3><p>Welke gegevens uit Werk en Inburgering zijn nodig in het gezamenlijke plan, en welke component is daarvoor verantwoordelijk?</p></div>
+  <div class="content-card" v-click><h3>Proces en aanbod</h3><p>Welke stappen en beslisregels horen bij het selecteren en inzetten van aanbod via GZAC?</p></div>
+  <div class="content-card" v-click><h3>Succescriteria</h3><p>Wanneer zijn caseload, één inwonerplan, herplannen en managementrapportage voldoende aangetoond?</p></div>
 </div>
+
+<div class="poc-section" v-click><h3>Resultaat</h3><p style="font-size:13px;margin:0;">Een afgebakende inrichting, duidelijke verantwoordelijkheden en toetsbare uitkomsten voor de PoC.</p></div>
+
+---
 
 ---
 
