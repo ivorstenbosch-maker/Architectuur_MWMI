@@ -24,8 +24,8 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 # Inhoud
 
 <div class="content-grid two">
-  <div class="content-card accent" v-click><h3>1. Visie en architectuur</h3><p>Van dienstverlening naar casusregie, de functionele cyclus en de samenwerkende componenten.</p></div>
-  <div class="content-card" v-click><h3>2. Registraties en rapportage</h3><p>Gegevensverantwoordelijkheden, monitoring en inzicht.</p></div>
+  <div class="content-card accent" v-click><h3>1. Visie en architectuur</h3><p>Common Ground, de architectuurcontext, de functionele cyclus en de samenwerkende componenten.</p></div>
+  <div class="content-card" v-click><h3>2. Registraties en rapportage</h3><p>Informatiebeheer, rapportage en inzicht.</p></div>
   <div class="content-card" v-click><h3>3. PoC en scenario's</h3><p>Benodigde basis en de scenario's die we willen valideren.</p></div>
   <div class="content-card" v-click><h3>4. Verdieping businessanalyse</h3><p>Routes, overgang naar Acquisitie en Matching, status, voortgang en intake.</p></div>
   <div class="content-card" v-click><h3>5. Bepalen voor een werkbare PoC</h3><p>De afspraken en keuzes die verdere uitwerking mogelijk maken.</p></div>
@@ -34,6 +34,22 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 ---
 
 <!-- SLIDE 3 -->
+
+# Architectuurcontext van deze ontwikkeling
+
+<p class="lead">De ontwikkeling sluit aan op de samenhang tussen visie, architectuurkader en platformrealisatie.</p>
+
+<div class="flow-row">
+  <div class="content-card accent" v-click><h3>Common Ground</h3><p>De informatiekundige visie en richting.</p></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>Enterprise Architectuur</h3><p>Het gezamenlijke kader voor principes, keuzes en samenhang.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>Platform Dienstverlening</h3><p>De referentie-implementatie met componenten, registraties, API's en infrastructuur.</p></div></div>
+</div>
+
+<div class="poc-section" v-click><h3>Positionering</h3><p style="font-size:13px;margin:0;">MijnWerk en MijnInburgering passen binnen het sociaal domein en bouwen voort op de samenhangende bouwblokken van Platform Dienstverlening.</p></div>
+
+---
+
+<!-- SLIDE 4 -->
 
 # De functionele cyclus
 
@@ -52,25 +68,25 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 4 -->
+<!-- SLIDE 5 -->
 
 # Eén geïntegreerde gebruikerservaring
 
-<div class="flow-row" style="align-items:center;">
-  <div class="content-card accent" style="text-align:center;" v-click><h3>Professional</h3><p>Werkt vanuit één geïntegreerde werkomgeving.</p></div>
-  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent" style="text-align:center;"><h3>MijnPlan</h3><p>Interacties rond profiel, plan, doelen en evaluatie.</p></div></div>
-  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card" style="text-align:center;"><h3>Samenwerkende componenten</h3><p>Registraties en procesdiensten op de achtergrond.</p></div></div>
+<div class="content-grid two" style="margin-top:18px;">
+  <div class="content-card accent" v-click><h3>IKO</h3><p>Ingang voor een integraal overzicht van de inwoner.</p></div>
+  <div class="content-card" v-click><h3>MijnPlan</h3><p>Ingang voor interacties rond profiel, plan, doelen en evaluatie.</p></div>
 </div>
+<p class="small-note" v-click>Vanuit beide ingangen loopt de medewerker naadloos door naar dezelfde relevante informatie en views per procesfase.</p>
 
 <div class="content-grid two" style="margin-top:20px;">
-  <div class="content-card" v-click><h3>Wat merkt de medewerker?</h3><p>Eén samenhangende werkomgeving. Geen losse registraties om de casusregie uit te voeren.</p></div>
+  <div class="content-card" v-click><h3>Wat merkt de medewerker?</h3><p>Een geïntegreerde werkomgeving met logische overgangen naar views per procesfase.</p></div>
   <div class="content-card" v-click><h3>Wat gebeurt achter de schermen?</h3><p>Zelfstandige componenten wisselen gegevens uit en ondersteunen ieder een eigen deel van het proces.</p></div>
 </div>
-<p class="small-note" v-click>OpenProduct is een registratie voor aanbodbeheer; het is geen aparte werkomgeving voor casusregie.</p>
+<p class="small-note" v-click>OpenProduct is een registratie voor aanbodbeheer.</p>
 
 ---
 
-<!-- SLIDE 5 -->
+<!-- SLIDE 6 -->
 
 # Gebruikerservaring en procesondersteuning
 
@@ -90,7 +106,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 6 -->
+<!-- SLIDE 7 -->
 
 # Registraties en domeinmodellen
 
@@ -111,12 +127,13 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 7 -->
+<!-- SLIDE 8 -->
 
 # Hoe een casus door de componenten loopt
 
 <div class="flow-row">
   <div class="content-card accent" v-click><h3>Professional</h3><p>Geïntegreerde werkomgeving.</p></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>IKO</h3><p>Integraal overzicht van de inwoner.</p></div></div>
   <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>MijnPlan</h3><p>Profiel, plan en evaluatie.</p></div></div>
   <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>OpenPlan</h3><p>Plan, doelen en evaluaties.</p></div></div>
   <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>OpenProduct</h3><p>Passend aanbod op basis van doel of subdoel.</p></div></div>
@@ -132,7 +149,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 8 -->
+<!-- SLIDE 9 -->
 
 # Generieke software, Utrechtse inrichting
 
@@ -150,7 +167,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 9 -->
+<!-- SLIDE 10 -->
 
 # Rapportage
 
@@ -164,11 +181,10 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 </div>
 <div v-click style="text-align:center;color:var(--u-red);font-size:25px;margin:5px 0;">↓ &nbsp; ↓ &nbsp; ↓ &nbsp; ↓ &nbsp; ↓</div>
 <div class="content-card accent" style="max-width:650px;margin:0 auto;text-align:center;" v-click><h3>Geïntegreerd informatiemodel / BI</h3><p>Samenhangende informatie voor inzicht in voortgang.</p></div>
-<div style="text-align:center;margin-top:14px;" v-click><span class="utrecht-pill">Voortgang volgen</span><span class="utrecht-pill">Ontwikkelingen signaleren</span><span class="utrecht-pill">Managementinformatie</span></div>
 
 ---
 
-<!-- SLIDE 10 -->
+<!-- SLIDE 11 -->
 
 # Wat is nodig voor de PoC?
 
@@ -193,7 +209,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 12 -->
 
 # Scenario's
 
@@ -203,11 +219,11 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
   <div class="content-card" v-click><h3>3. Voortgang evalueren en herijken</h3><p>Kan een afgerond subdoel leiden tot een volgend subdoel en kan het inwonerplan worden herijkt?</p></div>
   <div class="content-card" v-click><h3>4. Managementrapportage</h3><p>Zijn gegevens voldoende beschikbaar en consistent om betrouwbare rapportages te maken?</p></div>
 </div>
-<div class="poc-section" v-click><h3>Praktische aanpak</h3><p style="font-size:13px;margin:0;">Gebruik één representatieve testinwoner met zowel Werk als Inburgering als rode draad voor scenario 2 en 3. Voeg enkele testinwoners toe voor caseload en rapportage.</p></div>
+<div class="poc-section" v-click><h3>Praktische aanpak</h3><p style="font-size:13px;margin:0;">Maak mockdata aan voor meerdere fictieve testinwoners met verschillende routes, domeinen, statussen en voortgang. Gebruik een inwoner met zowel Werk als Inburgering als rode draad voor scenario 2 en 3; vul dit aan met testinwoners voor caseload en rapportage.</p></div>
 
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 13 -->
 
 # Verdieping: verschillende routes
 
@@ -223,7 +239,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 14 -->
 
 # Verdieping: overgang Acquisitie en Matching
 
@@ -238,7 +254,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 15 -->
 
 # Verdieping: status, voortgang en intake
 
@@ -253,7 +269,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 16 -->
 
 # Bepalen voor een werkbare PoC
 
