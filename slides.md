@@ -217,6 +217,52 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 12 -->
 
+# Routes naar dienstverlening
+
+<p class="lead">Verschillende routes kunnen andere keuzes vragen voor doelen, aanbod en evaluatie.</p>
+
+<div class="content-grid">
+  <div class="content-card accent" v-click><h3>Reguliere werkdienstverlening</h3><p>Welke doelen worden opgebouwd en in welke volgorde? Welk aanbod past per stap, en wanneer evalueren inwoner en coach de voortgang?</p></div>
+  <div class="content-card" v-click><h3>Fastlane naar UW</h3><p>De inwoner wordt direct gekoppeld aan UW. Welke doelen zijn dan leidend, welk aanbod wordt ingezet en hoe wordt de voortgang geëvalueerd?</p></div>
+  <div class="content-card" v-click><h3>Werk en Inburgering samen</h3><p>Hoe hangen doelen uit beide domeinen samen? Hoe wordt aanbod op elkaar afgestemd en hoe evalueren betrokkenen de gezamenlijke voortgang?</p></div>
+</div>
+
+<div class="poc-section" v-click><h3>Businessanalyse</h3><p style="font-size:13px;margin:0;">Beschrijf per route de aanleiding, gewenste uitkomst, betrokken rollen en momenten waarop doelen of aanbod worden bijgesteld.</p></div>
+
+---
+
+<!-- SLIDE 13 -->
+
+# Overgang naar Acquisitie en Matching
+
+<p class="lead">Als een inwoner werkfit is, volgt een overgang naar een losse applicatie. De inwoner moet in de dienstverlening zichtbaar en te volgen blijven.</p>
+
+<div class="content-grid two">
+  <div class="content-card accent" v-click><h3>Continuïteit van doelen</h3><p>Welke doelen en afspraken blijven relevant bij de overgang, en hoe ziet de ontvangende professional de actuele stand?</p></div>
+  <div class="content-card" v-click><h3>Voortgang en terugkoppeling</h3><p>Welke voortgang uit Acquisitie en Matching moet terugkomen, wie legt die vast en hoe wordt deze meegenomen in evaluaties?</p></div>
+  <div class="content-card" v-click><h3>Verantwoordelijkheid</h3><p>Wie volgt de inwoner tijdens de overgang en daarna? Hoe zijn overdracht en opvolging voor inwoner en professionals duidelijk?</p></div>
+  <div class="content-card" v-click><h3>In beeld blijven</h3><p>Welke informatie is nodig voor caseload, monitoring en een actueel beeld van de inwoner over beide applicaties heen?</p></div>
+</div>
+
+---
+
+<!-- SLIDE 14 -->
+
+# Status, voortgang en intake
+
+<p class="lead">Maak onderscheid tussen de fase waarin iets zich bevindt en de ontwikkeling richting een resultaat.</p>
+
+<div class="content-grid two">
+  <div class="content-card accent" v-click><h3>Status</h3><p>Welke statussen horen bij plan, doel/subdoel en aanbod of product? Wie wijzigt ze en welke overgangsmomenten zijn betekenisvol?</p></div>
+  <div class="content-card" v-click><h3>Voortgang</h3><p>Hoe wordt ontwikkeling richting een doel zichtbaar gemaakt? Welke evaluatiemomenten en informatie ondersteunen bijsturen?</p></div>
+  <div class="content-card" v-click><h3>Monitoring en fasering</h3><p>Welk onderdeel is leidend voor caseload en rapportage: planfase, doelvoortgang, ingezette producten of een combinatie?</p></div>
+  <div class="content-card" v-click><h3>Reikwijdte van intake</h3><p>Is intake een brede verkenning van de situatie van de inwoner, of richt deze zich alleen op werkdienstverlening? Wat vraagt elke keuze van doelen en vervolg?</p></div>
+</div>
+
+---
+
+<!-- SLIDE 15 -->
+
 # Een inwonerplan in de praktijk
 
 <p class="lead">Eén fictieve inwoner laat zien hoe Werk en Inburgering samenkomen in de dagelijkse uitvoering.</p>
@@ -232,7 +278,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 16 -->
 
 # Besluiten voor een werkbare PoC
 
@@ -251,7 +297,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 17 -->
 
 # Vragen & gesprek
 
