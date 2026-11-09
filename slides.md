@@ -14,29 +14,21 @@ mdc: true
 # Architectuur MijnWerk / MijnInburgering
 
 <p class="lead" style="font-size:1.35rem; max-width:950px;">
-Eén geïntegreerde gebruikerservaring aan de voorkant,<br>
-meerdere zelfstandige en samenwerkende componenten aan de achterkant.
+Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteuning
 </p>
-
-<div style="margin-top:24px;">
-  <span class="utrecht-pill">Common Ground</span>
-  <span class="utrecht-pill">Platform Dienstverlening</span>
-  <span class="utrecht-pill">Casusregie</span>
-</div>
 
 ---
 
 <!-- SLIDE 2 -->
 
-# Van dienstverlening naar casusregie
+# Inhoud
 
 <div class="content-grid two">
-  <div class="content-card accent" v-click><h3>Van losse contactmomenten</h3><p>Niet een verzameling afzonderlijke contactmomenten of registraties.</p></div>
-  <div class="content-card" v-click><h3>Naar één samenhangend traject</h3><p>Professional en inwoner werken vanuit een gedeeld beeld, doelen en passende ondersteuning.</p></div>
-  <div class="content-card" v-click><h3>Inzicht in de situatie</h3><p>Profiel en context van de inwoner vormen het vertrekpunt.</p></div>
-  <div class="content-card" v-click><h3>Plan en doelen</h3><p>Afspraken worden vertaald naar doelen en subdoelen.</p></div>
-  <div class="content-card" v-click><h3>Passend aanbod</h3><p>Ondersteuning en instrumenten worden ingezet op basis van de doelen.</p></div>
-  <div class="content-card" v-click><h3>Volgen en evalueren</h3><p>De voortgang wordt besproken en waar nodig wordt de aanpak bijgesteld.</p></div>
+  <div class="content-card accent" v-click><h3>1. Visie en architectuur</h3><p>Van dienstverlening naar casusregie, de functionele cyclus en de samenwerkende componenten.</p></div>
+  <div class="content-card" v-click><h3>2. Registraties en rapportage</h3><p>Gegevensverantwoordelijkheden, monitoring en inzicht.</p></div>
+  <div class="content-card" v-click><h3>3. PoC en scenario's</h3><p>Benodigde basis en de scenario's die we willen valideren.</p></div>
+  <div class="content-card" v-click><h3>4. Verdieping businessanalyse</h3><p>Routes, overgang naar Acquisitie en Matching, status, voortgang en intake.</p></div>
+  <div class="content-card" v-click><h3>5. Bepalen voor een werkbare PoC</h3><p>De afspraken en keuzes die verdere uitwerking mogelijk maken.</p></div>
 </div>
 
 ---
@@ -160,7 +152,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 9 -->
 
-# Van registraties naar inzicht
+# Rapportage
 
 <p class="lead">Gegevens uit de verschillende registraties worden samengebracht voor monitoring en sturing.</p>
 <div class="content-grid" style="grid-template-columns:repeat(5,minmax(0,1fr));">
@@ -203,7 +195,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 11 -->
 
-# Vier scenario's valideren
+# Scenario's
 
 <div class="content-grid two">
   <div class="content-card accent" v-click><h3>1. Overzicht van de caseload</h3><p>Kan coach en teamleider de eigen of teamcaseload overzien en prioriteiten bepalen?</p></div>
@@ -217,7 +209,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 12 -->
 
-# Routes naar dienstverlening
+# Verdieping: verschillende routes
 
 <p class="lead">Verschillende routes kunnen andere keuzes vragen voor doelen, aanbod en evaluatie.</p>
 
@@ -233,7 +225,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 13 -->
 
-# Overgang naar Acquisitie en Matching
+# Verdieping: overgang Acquisitie en Matching
 
 <p class="lead">Als een inwoner werkfit is, volgt een overgang naar een losse applicatie. De inwoner moet in de dienstverlening zichtbaar en te volgen blijven.</p>
 
@@ -248,7 +240,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 14 -->
 
-# Status, voortgang en intake
+# Verdieping: status, voortgang en intake
 
 <p class="lead">Maak onderscheid tussen de fase waarin iets zich bevindt en de ontwikkeling richting een resultaat.</p>
 
@@ -263,24 +255,7 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 
 <!-- SLIDE 15 -->
 
-# Een inwonerplan in de praktijk
-
-<p class="lead">Eén fictieve inwoner laat zien hoe Werk en Inburgering samenkomen in de dagelijkse uitvoering.</p>
-
-<div class="flow-row">
-  <div class="content-card accent" v-click><h3>1. Situatie bekijken</h3><p>De coach bekijkt in MijnPlan het profiel en de relevante informatie uit beide domeinen.</p></div>
-  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>2. Plan en doelen</h3><p>Werk en Inburgering krijgen samenhang in één inwonerplan met doelen en subdoelen.</p></div></div>
-  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>3. Aanbod inzetten</h3><p>Bij een doel passend aanbod wordt geselecteerd en via GZAC ingezet.</p></div></div>
-  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>4. Evalueren</h3><p>De coach bespreekt de voortgang en stelt waar nodig profiel of plan bij.</p></div></div>
-</div>
-
-<div class="poc-section" v-click><h3>Wat toetsen we?</h3><p style="font-size:13px;margin:0;">Kan de coach domeininformatie bekijken en aanvullen, een subdoel afronden en samen met de inwoner de volgende stap bepalen?</p></div>
-
----
-
-<!-- SLIDE 16 -->
-
-# Besluiten voor een werkbare PoC
+# Bepalen voor een werkbare PoC
 
 <p class="lead">Maak de belangrijkste afspraken expliciet voordat de scenario's worden ingericht en getest.</p>
 
@@ -294,18 +269,3 @@ meerdere zelfstandige en samenwerkende componenten aan de achterkant.
 <div class="poc-section" v-click><h3>Resultaat</h3><p style="font-size:13px;margin:0;">Een afgebakende inrichting, duidelijke verantwoordelijkheden en toetsbare uitkomsten voor de PoC.</p></div>
 
 ---
-
----
-
-<!-- SLIDE 17 -->
-
-# Vragen & gesprek
-
-<p class="lead" style="font-size:1.35rem;max-width:900px;">Wat betekent dit voor ontwerp, realisatie, beheer en dagelijks gebruik?</p>
-<div style="margin-top:24px;">
-  <span class="utrecht-pill">Functionaliteit</span>
-  <span class="utrecht-pill">Samenwerking</span>
-  <span class="utrecht-pill">Configuratie</span>
-  <span class="utrecht-pill">Beheer</span>
-</div>
-<p class="small-note" style="position:absolute;bottom:55px;">Dank voor jullie bijdrage.</p>
