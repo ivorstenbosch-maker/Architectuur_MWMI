@@ -186,6 +186,14 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 <!-- SLIDE 11 -->
 
+# Integraal informatiemodel
+
+<img src="/integraal-informatiemodel.png" alt="Voorbeeld van een integraal informatiemodel met onder meer plan, doelen, subdoelen, evaluaties, aanbod, persoon en contactmoment" style="display:block;max-width:100%;max-height:calc(100vh - 160px);width:auto;height:auto;object-fit:contain;margin:0 auto;" />
+
+---
+
+<!-- SLIDE 12 -->
+
 # Wat is nodig voor de PoC?
 
 <div class="content-grid two">
@@ -209,7 +217,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 13 -->
 
 # Scenario's
 
@@ -223,7 +231,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 14 -->
 
 # Verdieping: verschillende routes
 
@@ -239,7 +247,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 15 -->
 
 # Verdieping: overgang Acquisitie en Matching
 
@@ -254,7 +262,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 16 -->
 
 # Verdieping: status, voortgang en intake
 
@@ -269,7 +277,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 16 -->
+<!-- SLIDE 17 -->
 
 # Bepalen voor een werkbare PoC
 
