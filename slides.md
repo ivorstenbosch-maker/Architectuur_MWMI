@@ -24,7 +24,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 # Inhoud
 
 <div class="content-grid two">
-  <div class="content-card accent" v-click><h3>1. Visie en architectuur</h3><p>Common Ground, de architectuurcontext, de functionele cyclus en de samenwerkende componenten.</p></div>
+  <div class="content-card accent" v-click><h3>1. Visie en architectuur</h3><p>Common Ground, het vijflaagsmodel, de doelen, de architectuurcontext en de functionele cyclus.</p></div>
   <div class="content-card" v-click><h3>2. Registraties en rapportage</h3><p>Informatiebeheer, rapportage en inzicht.</p></div>
   <div class="content-card" v-click><h3>3. PoC en scenario's</h3><p>Benodigde basis en de scenario's die we willen valideren.</p></div>
   <div class="content-card" v-click><h3>4. Verdieping businessanalyse</h3><p>Routes, overgang naar Acquisitie en Matching, status, voortgang en intake.</p></div>
@@ -51,6 +51,41 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 <!-- SLIDE 4 -->
 
+# Common Ground en het vijflaagsmodel
+
+<p class="lead">Eén dienst voor de inwoner; herbruikbare bouwstenen werken achter de schermen samen.</p>
+
+<div class="flow-row">
+  <div class="content-card accent" v-click><h3>1. Interactie</h3><p>De inwoner gebruikt de dienst.</p></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>2. Proces</h3><p>De dienst wordt uitgevoerd.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>3. Connectiviteit</h3><p>Componenten wisselen berichten uit.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card"><h3>4. Diensten</h3><p>Gegevens worden via API's ontsloten.</p></div></div>
+  <div class="flow-step" v-click><div class="flow-arrow">→</div><div class="content-card accent"><h3>5. Registraties</h3><p>Gegevens worden bij de bron vastgelegd.</p></div></div>
+</div>
+
+<p class="small-note" v-click>Common Ground geeft de richting; Enterprise Architectuur bewaakt de samenhang en Platform Dienstverlening maakt bouwstenen concreet.</p>
+
+---
+
+<!-- SLIDE 5 -->
+
+# Doelen van de architectuur
+
+<p class="lead">MijnWerk en MijnInburgering ondersteunen dienstverlening die voor medewerker en inwoner overzichtelijk, samenhangend en doorontwikkelbaar is.</p>
+
+<div class="content-grid two">
+  <div class="content-card accent" v-click><h3>Overzicht voor de medewerker</h3><p>Een samenhangend beeld van de inwoner en het traject.</p></div>
+  <div class="content-card" v-click><h3>Transparantie voor de inwoner</h3><p>Inzicht in afspraken, stappen en voortgang.</p></div>
+  <div class="content-card" v-click><h3>Integrale dienstverlening</h3><p>Werk en Inburgering verbinden en uitbreiden naar andere domeinen.</p></div>
+  <div class="content-card" v-click><h3>Efficiënte administratie en processen</h3><p>Administratie en processtappen efficiënt ondersteunen.</p></div>
+  <div class="content-card" v-click><h3>Onderhoudbaar binnen het platform</h3><p>Aansluiten op de doorontwikkeling van Platform Dienstverlening.</p></div>
+  <div class="content-card accent" v-click><h3>Datagedreven werken</h3><p>Beslisregels ondersteunen keuzes; rapportage geeft inzicht in de performance van processen.</p></div>
+</div>
+
+---
+
+<!-- SLIDE 6 -->
+
 # De functionele cyclus
 
 <p class="lead">De professional doorloopt een samenhangende cyclus met ruimte om onderweg bij te stellen.</p>
@@ -68,7 +103,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 5 -->
+<!-- SLIDE 7 -->
 
 # Eén geïntegreerde gebruikerservaring
 
@@ -86,7 +121,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 6 -->
+<!-- SLIDE 8 -->
 
 # Gebruikerservaring en procesondersteuning
 
@@ -106,7 +141,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 7 -->
+<!-- SLIDE 9 -->
 
 # Registraties en domeinmodellen
 
@@ -127,7 +162,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 8 -->
+<!-- SLIDE 10 -->
 
 # Hoe een casus door de componenten loopt
 
@@ -149,7 +184,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 9 -->
+<!-- SLIDE 11 -->
 
 # Generieke software, Utrechtse inrichting
 
@@ -167,7 +202,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 10 -->
+<!-- SLIDE 12 -->
 
 # Rapportage
 
@@ -184,7 +219,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 11 -->
+<!-- SLIDE 13 -->
 
 # Integraal informatiemodel
 
@@ -192,7 +227,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 12 -->
+<!-- SLIDE 14 -->
 
 # Wat is nodig voor de PoC?
 
@@ -217,7 +252,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 13 -->
+<!-- SLIDE 15 -->
 
 # Scenario's
 
@@ -231,7 +266,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 14 -->
+<!-- SLIDE 16 -->
 
 # Verdieping: verschillende routes
 
@@ -247,7 +282,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 15 -->
+<!-- SLIDE 17 -->
 
 # Verdieping: overgang Acquisitie en Matching
 
@@ -262,7 +297,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 16 -->
+<!-- SLIDE 18 -->
 
 # Verdieping: status, voortgang en intake
 
@@ -277,7 +312,7 @@ Integrale dienstverlening met generieke bouwblokken en configureerbare ondersteu
 
 ---
 
-<!-- SLIDE 17 -->
+<!-- SLIDE 19 -->
 
 # Bepalen voor een werkbare PoC
 
